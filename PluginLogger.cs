@@ -1,7 +1,7 @@
 using BepInEx.Logging;
 using BepInEx.Configuration;
 
-namespace ToolsMeleeRecharge
+namespace owd
 {
     /// <summary>
     /// Centralized logger for the Tools Melee Recharge plugin.
