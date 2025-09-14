@@ -6,7 +6,7 @@ namespace owd
     /// <summary>
     /// Centralized logger for the Tools Melee Recharge plugin.
     /// </summary>
-    public static class PluginLogger
+    public static class BepinexPluginLogger
     {
         // Logging is enabled by default
         public static bool enableLogging = true;
