@@ -3,12 +3,8 @@ using BepInEx.Configuration;
 
 namespace owd
 {
-    /// <summary>
-    /// Centralized logger for the Tools Melee Recharge plugin.
-    /// </summary>
     public static class BepinexPluginLogger
     {
-        // Logging is enabled by default
         public static bool enableLogging = true;
         private static ManualLogSource logger;
 
@@ -46,7 +42,7 @@ namespace owd
                 "00 - General",
                 "Logging",
                 false,
-                 new ConfigDescription(
+                new ConfigDescription(
                     "Enable or disable logging to BepInEx log file",
                     null,
                     new ConfigurationManagerAttributes { Order = 1 }

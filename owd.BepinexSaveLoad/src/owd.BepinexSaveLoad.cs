@@ -28,6 +28,5 @@ namespace owd
             string json = File.ReadAllText(filePath);
             return JsonSerializer.Deserialize<T>(json, Options);
         }
-
     }
 }

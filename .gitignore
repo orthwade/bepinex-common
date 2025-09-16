@@ -57,3 +57,6 @@ desktop.ini
 # Optional: ignore game/BepInEx DLLs (developers copy locally)
 *.dll
 **/*.dll
+
+# Ignore all contents of libs/
+owd.BepinexSaveLoad/libs/
